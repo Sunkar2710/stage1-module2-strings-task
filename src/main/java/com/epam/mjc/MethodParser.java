@@ -1,5 +1,11 @@
 package com.epam.mjc;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class MethodParser {
 
     /**
@@ -20,6 +26,40 @@ public class MethodParser {
      * @return {@link MethodSignature} object filled with parsed values from source string
      */
     public MethodSignature parseFunction(String signatureString) {
-        throw new UnsupportedOperationException("You should implement this method.");
+        List<MethodSignature.Argument> argumentList = new ArrayList<>();
+
+        String methodName = Objects.requireNonNull(parseSourceString(signatureString, "([a-zA-Z]+\\s*(?=\\())")).trim();
+
+        String arguments = Objects.requireNonNull(parseSourceString(signatureString, "((?<=\\()[a-zA-Z\\s,]*(?=\\)))")).trim();
+
+        if (!arguments.isEmpty()) {
+
+            String[] argumentsStringArray = arguments.split(",\\s");
+
+            for (String arg : argumentsStringArray) {
+                String type = Objects.requireNonNull(parseSourceString(arg, "(^\\s*[a-zA-Z]+)")).trim();
+                String name = Objects.requireNonNull(parseSourceString(arg, "([a-zA-Z]+\\s*$)")).trim();
+                argumentList.add(new MethodSignature.Argument(type, name));
+            }
+
+        }
+
+        MethodSignature methodSignature = new MethodSignature(methodName, argumentList);
+
+        methodSignature.setAccessModifier(parseSourceString(signatureString, "((?=private|public|protected)[a-z]+)"));
+
+        methodSignature.setReturnType(parseSourceString(signatureString, "(((?<=private\\s|public\\s|protected\\s)\\s*\\w+)" +
+                "|((?!private|public|protected)^\\s*\\w+))"));
+
+        return methodSignature;
+    }
+
+    private static String parseSourceString(String signatureString, String regex) {
+
+        Pattern pattern = Pattern.compile(regex);
+
+        Matcher matcher = pattern.matcher(signatureString);
+
+        return matcher.find() ? signatureString.substring(matcher.start(), matcher.end()) : null;
     }
 }

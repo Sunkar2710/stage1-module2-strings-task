@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b4898a3-a39e-4ec2-85f8-25a50eab7cd7" name="Changes" comment="debug: implement stage1-module2-string-task" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QBsc5xj7NarVMIowXx3BQW9OIy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last.edited.regexp": "String repeat(String value, int times)"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.com.epam.mjc in stage1-module2-strings-task1">
+    <configuration name="StringSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.mjc.StringSplitter" />
+      <module name="stage1-module2-strings-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.mjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage1-module2-strings-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.mjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.mjc" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.mjc.MethodParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodParserTest.testParseFunctionNoArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage1-module2-strings-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.mjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.mjc" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.mjc.MethodParserTest" />
+      <option name="METHOD_NAME" value="testParseFunctionNoArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSplitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage1-module2-strings-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.mjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.mjc" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.mjc.StringSplitterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.epam.mjc in stage1-module2-strings-task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stage1-module2-strings-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.mjc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.mjc" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.epam.mjc in stage1-module2-strings-task1" />
+        <item itemvalue="JUnit.MethodParserTest.testParseFunctionNoArguments" />
+        <item itemvalue="JUnit.StringSplitterTest" />
+        <item itemvalue="Application.StringSplitter" />
+        <item itemvalue="JUnit.MethodParserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b4898a3-a39e-4ec2-85f8-25a50eab7cd7" name="Changes" comment="" />
+      <created>1684838389025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684838389025</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: implement stage1-module2-string-task">
+      <created>1685094318485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094318485</updated>
+    </task>
+    <task id="LOCAL-00002" summary="debug: implement stage1-module2-string-task">
+      <created>1685097426470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685097426470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: implement stage1-module2-string-task" />
+    <MESSAGE value="debug: implement stage1-module2-string-task" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug: implement stage1-module2-string-task" />
+  </component>
+</project>
